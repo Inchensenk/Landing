@@ -1,0 +1,62 @@
+@import url("https://fonts.cdnfonts.com/css/avenir-next-cyr");
+
+
+.body{
+  font-family: "Avenir Next Cyr", sans-serif;
+}
+
+.container{
+width: 1522px;
+height: 62px;
+margin: 46px 198px 0 200px;
+}
+
+
+.header__content{
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+
+
+  width: 611px;
+  height: 51px;
+
+}
+
+.menu__item {
+  list-style-type: none;
+  text-transform: uppercase;
+  
+}
+
+.menu__link{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #828282;
+}
+
+.menu__link--active{
+    
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+
+  width: 220px;
+  height: 24px;
+
+}
+
+
+.header_nav{
+  margin: 0 250px 0 257px;
+}
