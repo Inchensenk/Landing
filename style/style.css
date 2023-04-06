@@ -62,6 +62,7 @@
   position: absolute;
   top: 949px;
   left: 0;
+
   width: 1920px;
   height: 261px;
 }
@@ -71,6 +72,7 @@
 
   width: 779px;
   height: 561px;
+
   z-index: 1;
   position: absolute;
   top: 359px;
@@ -87,6 +89,19 @@
 
   width: 456px;
   height: 456px;
+}
+
+.item-1__bgr-6{
+  background-image: url(/IMG/clouds-1.png);
+
+  width: 735px;
+  height: 199px;
+
+  position: absolute;
+  top: 701px;
+  right: 264px;
+
+  z-index: 1;
 }
 
 .item-1__mouse{
