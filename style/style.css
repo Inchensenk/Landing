@@ -3,34 +3,149 @@
 
 .body{
   font-family: "Avenir Next Cyr", sans-serif;
+
+  height: 6882px;
+  width: 1920px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  margin: 0;
+  padding: 0;
+
+  border: #161B22 solid 1px;
 }
 
-.container{
-width: 1522px;
-height: 62px;
-margin: 46px 198px 0 200px;
+/*Блок 1 Начало*/
+
+.body__item-1{
+  position: relative;
+
+  width: 1920px;
+  height: 1491px;
+
+  overflow: hidden;
+
+
+  border: #1f5baf solid 1px;
 }
 
+
+.item-1__bgr-1
+{
+  background-image: url(/background-image/light-background1.jpg);
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.item-1__bgr-2{
+  background-image: url(/background-image/light-background2.jpg);
+  background-repeat: no-repeat;
+
+  width: 1920px;
+  height: 1080px;
+
+  position: absolute;
+  left: 0px;
+  top: 1080px;
+}
+
+.item-1__bgr-3{
+  background-image: url(/IMG/clouds.png);
+  
+  position: absolute;
+  top: 949px;
+  left: 0;
+  width: 1920px;
+  height: 261px;
+}
+
+.item-1__bgr-4{
+  background-image: url(/IMG/office-building.png);
+
+  width: 779px;
+  height: 561px;
+  z-index: 1;
+  position: absolute;
+  top: 359px;
+  right: 204px;
+}
+
+.item-1__bgr-5{
+  background-image: url(/IMG/crane.png);
+
+  position: absolute;
+  top:159px;
+  right: 327px;
+  
+
+  width: 456px;
+  height: 456px;
+}
+
+.item-1__mouse{
+  position: absolute;
+  top:447px;
+  left: 200px;
+}
+
+.header__container{
+  position: absolute;
+  left: 200px;
+  top: 46px;
+
+  width: 1522px;
+  height: 62px;
+
+  border: black solid 1px;
+}
+
+.logo{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  width: 185px;
+  height: 46px;
+}
+
+.header_nav{
+  position: absolute;
+  left:442px;
+  width: 611px;
+  height: 51px;
+  border: rgb(117, 13, 253) solid 1px;
+}
 
 .header__content{
+  
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .menu{
+
   display: flex;
   justify-content: space-between;
 
 
-  width: 611px;
-  height: 51px;
 
+
+
+  border: rgb(163, 16, 16) solid 1px;
 }
 
 .menu__item {
   list-style-type: none;
   text-transform: uppercase;
-  
+  letter-spacing: 0.04em;
+  line-height: 24px;
 }
 
 .menu__link{
@@ -38,25 +153,262 @@ margin: 46px 198px 0 200px;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.04em;
   color: #828282;
 }
 
 .menu__link--active{
-    
+  color: #000000;
 }
 
 .contact{
   display: flex;
   justify-content: space-between;
 
+  position:absolute;
+  right: 0;
+  top: 11px;
+
   width: 220px;
   height: 24px;
 
 }
+/*Блок 1 Конец*/
 
 
-.header_nav{
-  margin: 0 250px 0 257px;
+
+
+/*Блок 2 Начало*/
+.body__item-2{
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  border:rgb(16, 151, 45) solid 1px;
 }
+
+.item-2__bgr-conteiner{
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+.item-2__bgr-1{
+  background-image:url(/background-image/item-2__bgr-1.png) ;
+
+  width: 2000px;
+  height: 1747px;
+
+}
+
+.item-2__bgr-2{
+  background-image: url(/background-image/item-2__bgr-2.png);
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  width: 1922px;
+  height: 631px;
+
+  mix-blend-mode: lighten;
+  box-shadow: inset 0px -128px 113px #000000;
+}
+
+.item-2__bgr-3{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+  width: 1920px;
+  height: 1080px;
+
+  background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
+}
+/*Блок 2 Конец*/
+
+
+
+/*Блок 3 Начало*/
+.body__item-3{
+  position: relative;
+
+  width: 1920px;
+  height: 772px;
+
+  overflow: hidden;
+
+  border:rgb(184, 15, 15) solid 1px;
+}
+
+.item-3__bgr{
+  background-image: url(/background-image/item-3__bgr.png);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+   
+  z-index: -1;
+
+  width: 1920px;
+  height: 2160px;
+}
+
+
+/*Блок 3 Конец*/
+
+
+/*Блок 4 Начало*/
+.body__item-4{
+  position: relative;
+
+  width: 1920px;
+  height: 2459px;
+
+  border:rgb(117, 33, 214) solid 1px;
+}
+
+.item-4__bgr-conteiner{
+  overflow: hidden;
+
+  position: relative;
+}
+
+.item-4__bgr-1{
+  background-image: url(/background-image/item-4__bgr-1.png);
+
+
+  width: 1922px;
+  height: 631px;
+
+  mix-blend-mode: lighten;
+  box-shadow: inset 0px -128px 113px #000000;
+
+  position: absolute;
+
+}
+
+.item-4__bgr-2{
+  background-image: url(/background-image/item-4__bgr-2.png);
+
+  width: 2000px;
+  height: 1747px;
+
+
+  
+  position: absolute;
+  top: 87px;
+  left: 14px; 
+
+}
+
+.item-4__bgr-3{
+  background-image: url(/background-image/item-4__bgr-3.png);
+
+  width: 2000px;
+  height: 1747px;
+
+  position: absolute;
+  left: 7px;
+  top: 1340px;
+  z-index: 2;
+}
+
+.item-4__bgr-4{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  width: 1920px;
+  height: 2459px;
+
+  background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
+}
+/*Блок 4 Конец*/
+
+
+/*Блок 5 Начало*/
+.body__item-5{
+  position: relative;
+
+  width: 1920px;
+  height: 1080px;
+
+
+  border:rgb(255, 4, 4) solid 1px;
+}
+
+.item-5__bgr{
+  background-image: url(/background-image/item-5__bgr.png);
+ 
+  width: 1920px;
+  height: 1080px;
+}
+/*Блок 5 Конец*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bgr-3
+{
+  position: absolute;
+  left: 0px;
+  top: 2160px;
+  z-index: 100;
+  width: 1920px;
+  height: 1080px;
+
+  background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
+}
+
+.bgr-4{
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+  top: 2160px;
+
+  width: 1922px;
+  height: 631px;
+
+  background-image: url(/background-image/dark-background-stars.png);
+
+  mix-blend-mode: lighten;
+  box-shadow: inset 0px -128px 113px #000000;
+}
+
+
+.bgr-3__container{
+  position: absolute;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+
+
+
+
