@@ -600,7 +600,69 @@
   height: 2160px;
 }
 
+.item-3__tiles-container{
+  position: absolute;
+  top: 341px;
+  right: 204px;
 
+  width: 1514px;
+  height: 304px;
+
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.item-3__tile{
+  height: 304px;
+  width: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+
+.item-3__tile-img{
+  width: 363px;
+  height: 253px;
+
+
+}
+
+.item-3__tile-text{
+  font-weight: bold;
+}
+
+.item-3__title{
+  position: absolute;
+  top:206px;
+  right: 200px;
+
+  width: 1517px;
+  height: 63px;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 42px;
+  line-height: 10px;
+
+
+
+  letter-spacing: 0.04em;
+
+}
+
+.item-3__title--bold{
+  font-weight:900;
+}
 /*Блок 3 Конец*/
 
 
