@@ -305,6 +305,9 @@
   
 }
 
+.item-1__tile-text--letter-spacing-minus-009{
+  letter-spacing: -0.09em;
+}
 /*------------------------------*/
 .header__container{
   position: absolute;
@@ -453,6 +456,121 @@
 
   background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
 }
+
+.item-2__block-cut-img{
+  position: absolute;
+  top:320px;
+  left: 202px;
+}
+
+.item-2__block-cut-lines{
+  position: absolute;
+  top:423px;
+  left:689px;
+}
+
+.item-2__title{
+  position: absolute;
+  top:182px;
+  left: 328px;
+
+  color: white;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 38px;
+  line-height: 20px;
+
+
+  text-align: center;
+  letter-spacing: 0.15em;
+  
+  text-transform: uppercase;
+}
+
+.item-2__title--bold{
+  font-weight: 900;
+}
+
+.item-2__text-footer{
+  position: absolute;
+  top: 893px;
+  left: 377px;
+
+  width: 745px;
+  height: 89px;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight:500;
+  font-size: 18px;
+  line-height: 20px;
+  
+  color: white;
+}
+
+.item-2__text-footer--bold{
+  font-weight: 900;
+}
+
+
+.item-2__block-cut-title{
+  width: 745px;
+  height: 31px;
+
+  color: white;
+
+  line-height: 1px;
+}
+
+
+
+.item-2__block-cut-title-1{
+  position: absolute;
+  top: 460px;
+  right: 205px;
+
+
+}
+
+
+
+.item-2__block-cut-title-2{
+  position: absolute;
+  top: 655px;
+  right: 205px;
+
+
+}
+
+.item-2__block-cut-text{
+
+  font-size: small;
+
+  line-height: 11px;
+
+  color:white;
+}
+
+.item-2__block-cut-text-1{
+  position: absolute;
+  top: 500px;
+  right: 205px;
+
+  width: 745px;
+  height: 91px ;
+
+}
+
+.item-2__block-cut-text-2{
+  position: absolute;
+  top: 695px;
+  right: 205px;
+
+  width: 745px;
+  height: 110px ;
+}
 /*Блок 2 Конец*/
 
 
@@ -475,7 +593,7 @@
   position: absolute;
   top: 0;
   left: 0;
-   
+  
   z-index: -1;
 
   width: 1920px;
