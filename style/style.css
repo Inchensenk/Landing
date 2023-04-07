@@ -752,6 +752,54 @@
   width: 1920px;
   height: 1080px;
 }
+
+.item-5__tiles-container{
+  position: absolute;
+  top: 406px;
+  right: 199px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 21px;
+
+  width: 1521px;
+  height: 423px;
+
+  border: #FF374F solid 1px;
+}
+
+.item-5__tile{
+  position: relative;
+
+  width: 493px;
+  height: 201px;
+
+  background: #FFFFFF;
+
+  border-radius: 30px;
+}
+
+.item-5__tile-icon{
+  position: absolute;
+  top: 41px;
+  left: 48px;
+
+}
+
+.item-5__tile-text{
+  position: absolute;
+  top: 93px;
+  left: 48px;
+
+
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 10px;
+}
 /*Блок 5 Конец*/
 
 
