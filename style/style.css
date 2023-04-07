@@ -180,10 +180,10 @@
   height: 70px;
 
   font-family: 'Avenir Next Cyr';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 10px;
 }
 
 
@@ -214,6 +214,98 @@ line-height: 10px;
 }
 
 
+.item-1__text-footnote{
+  position: absolute;
+  top: 780px;
+  left: 200px;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+
+
+.item-1__text-footer{
+  position: absolute;
+  top: 1297px;
+  left: 200px;
+
+  text-align: center;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;  
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+
+}
+
+.item-1__text-footer--uppercase{
+  text-transform:uppercase ;
+}
+
+.item-1__text-footer--color-495D7C{
+  color:#495D7C;
+  
+}
+
+.item-1__text-footer--font-weight-bold{
+  font-weight: 700;
+}
+
+.item-1__tiles-container{
+  position: absolute;
+  top:881px;
+  left: 200px;
+
+  width: 1520px;
+  height: 359px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 21px;
+
+  
+}
+
+.item-1__tile{
+  position: relative;
+
+  width: 287px;
+  height: 169px;
+
+  border-radius: 30px;
+
+  background-color: #ffffff;
+}
+
+.item-1__tile-icon{
+  position: absolute;
+  top: 41px;
+  left: 44px;
+}
+
+.item-1__tile-text{
+  position: absolute;
+  top: 93px;
+  left: 48px;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: -0.04em;
+
+  
+}
+
+/*------------------------------*/
 .header__container{
   position: absolute;
   left: 200px;
@@ -318,7 +410,7 @@ line-height: 10px;
   width: 1920px;
   height: 1080px;
 
-  border:rgb(16, 151, 45) solid 1px;
+  
 }
 
 .item-2__bgr-conteiner{
@@ -374,7 +466,7 @@ line-height: 10px;
 
   overflow: hidden;
 
-  border:rgb(184, 15, 15) solid 1px;
+  
 }
 
 .item-3__bgr{
@@ -404,7 +496,7 @@ line-height: 10px;
   overflow: hidden;
 
 
-  border:rgb(117, 33, 214) solid 1px;
+ 
 }
 
 
@@ -471,7 +563,7 @@ line-height: 10px;
   height: 1080px;
 
 
-  border:rgb(255, 4, 4) solid 1px;
+  
 }
 
 .item-5__bgr{
