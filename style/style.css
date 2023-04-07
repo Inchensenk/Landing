@@ -1,5 +1,8 @@
 @import url("https://fonts.cdnfonts.com/css/avenir-next-cyr");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 
 .body{
   font-family: "Avenir Next Cyr", sans-serif;
@@ -14,7 +17,6 @@
   margin: 0;
   padding: 0;
 
-  border: #161B22 solid 1px;
 }
 
 /*Блок 1 Начало*/
@@ -22,13 +24,12 @@
 .body__item-1{
   position: relative;
 
+
   width: 1920px;
   height: 1491px;
 
   overflow: hidden;
 
-
-  border: #1f5baf solid 1px;
 }
 
 
@@ -73,7 +74,7 @@
   width: 779px;
   height: 561px;
 
-  z-index: 1;
+  z-index: 6;
   position: absolute;
   top: 359px;
   right: 204px;
@@ -85,7 +86,7 @@
   position: absolute;
   top:159px;
   right: 327px;
-  
+  z-index: 5;
 
   width: 456px;
   height: 456px;
@@ -101,7 +102,19 @@
   top: 701px;
   right: 264px;
 
-  z-index: 1;
+  z-index: 10;
+}
+
+.item-1__bgr-7{
+  background-image: url(/IMG/block.png);
+
+  position: absolute;
+  top: 392px;
+  right: 533px;
+  z-index: 5;
+  
+  width: 223px;
+  height: 171px;
 }
 
 .item-1__mouse{
@@ -109,6 +122,97 @@
   top:447px;
   left: 200px;
 }
+
+.lines__item-1{
+  position: absolute;
+  top:412.53px;
+  right: 620.92px;
+  z-index: 2;
+}
+
+.lines__item-2{
+  position: absolute;
+  top:413.91px;
+  right: 567.04px;
+}
+
+.lines__item-3{
+  position: absolute;
+  top:412.53px;
+  right: 620.23px;
+}
+
+.lines__item-4{
+  position: absolute;
+  top:413.91px;
+  right: 616.78px;
+  
+}
+
+.item-1__title{
+  position: absolute;
+  top: 206px;
+  left: 202px;
+
+  width: 817px;
+  height: 225px;
+
+  font-family: "Avenir Next Cyr", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 15px;
+  letter-spacing: 0.001em;
+  text-transform: uppercase;
+  
+}
+
+.item-1__title--font-weight-bold{
+  font-weight: bold;
+}
+
+.item-1__text{
+  position: absolute;
+  top:475px;
+  left: 309px;
+
+  width: 598px;
+  height: 70px;
+
+  font-family: 'Avenir Next Cyr';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 10px;
+}
+
+
+.btn{
+
+  display: flex;
+  justify-content: space-around;
+  
+  
+
+  position: absolute;
+  
+  width: 261px;
+  height: 70px;
+  left: 309px;
+  top: 604px;
+  background: #FF374F;
+  border-radius: 35px;
+}
+
+.btn__text{
+  align-self: center;
+  text-align: center;
+}
+
+.btn__text--white{
+  color: #ffffff;
+}
+
 
 .header__container{
   position: absolute;
@@ -118,7 +222,7 @@
   width: 1522px;
   height: 62px;
 
-  border: black solid 1px;
+
 }
 
 .logo{
@@ -135,7 +239,7 @@
   left:442px;
   width: 611px;
   height: 51px;
-  border: rgb(117, 13, 253) solid 1px;
+
 }
 
 .header__content{
@@ -149,11 +253,6 @@
   display: flex;
   justify-content: space-between;
 
-
-
-
-
-  border: rgb(163, 16, 16) solid 1px;
 }
 
 .menu__item {
@@ -171,8 +270,12 @@
   color: #828282;
 }
 
-.menu__link--active{
+.menu__link--active-black{
   color: #000000;
+}
+
+.menu__link--active-white{
+  color: white;
 }
 
 .contact{
@@ -185,6 +288,23 @@
 
   width: 220px;
   height: 24px;
+
+}
+
+.contact__text--black{
+  color: black;
+}
+
+.contact__text--white{
+  color: white;
+}
+
+.cursor{
+  position: absolute;
+  left: 885px;
+  top: 85px;
+  width: 22px;
+  height: 23px;
 
 }
 /*Блок 1 Конец*/
@@ -281,14 +401,13 @@
   width: 1920px;
   height: 2459px;
 
+  overflow: hidden;
+
+
   border:rgb(117, 33, 214) solid 1px;
 }
 
-.item-4__bgr-conteiner{
-  overflow: hidden;
 
-  position: relative;
-}
 
 .item-4__bgr-1{
   background-image: url(/background-image/item-4__bgr-1.png);
@@ -334,7 +453,7 @@
   position: absolute;
   top: 0;
   left: 0;
-
+  z-index: -1;
 
   width: 1920px;
   height: 2459px;
