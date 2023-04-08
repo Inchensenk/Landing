@@ -766,7 +766,7 @@
   width: 1521px;
   height: 423px;
 
-  border: #FF374F solid 1px;
+  
 }
 
 .item-5__tile{
@@ -800,6 +800,45 @@
   font-size: 14px;
   line-height: 10px;
 }
+
+.item-5__footer-text{
+  position: absolute;
+  top: 910px;
+  right: 744px;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 34px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.item-5__footer-text--bold{
+  font-weight: 900;
+}
+
+.item-5__title{
+  position: absolute;
+  top: 170px;
+  right: 250px;
+
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight:300;
+  font-size: 42px;
+  line-height: 25px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.item-5__title--bold{
+  font-weight:900;
+}
 /*Блок 5 Конец*/
 
 
@@ -827,40 +866,7 @@
 
 
 
-.bgr-3
-{
-  position: absolute;
-  left: 0px;
-  top: 2160px;
-  z-index: 100;
-  width: 1920px;
-  height: 1080px;
 
-  background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
-}
-
-.bgr-4{
-  position: absolute;
-  z-index: 10;
-  left: 0px;
-  top: 2160px;
-
-  width: 1922px;
-  height: 631px;
-
-  background-image: url(/background-image/dark-background-stars.png);
-
-  mix-blend-mode: lighten;
-  box-shadow: inset 0px -128px 113px #000000;
-}
-
-
-.bgr-3__container{
-  position: absolute;
-  left: 0;
-  width: 1920px;
-  height: 1080px;
-}
 
 
 
