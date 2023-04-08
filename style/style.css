@@ -674,9 +674,6 @@
   height: 2459px;
 
   overflow: hidden;
-
-
- 
 }
 
 
@@ -732,6 +729,78 @@
 
   background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
 }
+
+.item-4__bgr-5{
+  background-image: url(/background-image/Item-4__bgr-5.png);
+
+  position:absolute;
+  top:1730px;
+  left:241px;
+
+  width: 734px;
+  height: 454px;
+
+}
+
+.item-4__bgr-6{
+  background-image: url(/background-image/Item-4__bgr-6.png);
+
+
+  position:absolute;
+  top:1625px;
+  right: 219px;
+
+  width: 894px;
+  height: 736px;
+}
+
+.item-4__tiles-container-1{
+  position: absolute;
+  top: 349px;
+  left: 202px;
+
+  width: 1516px;
+  height: 428px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-4__tiles-container-1-tile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.item-4__tiles-container-1-tile-text{
+  font-family: 'Avenir Next Cyr';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #FFFFFF;
+}
+
+.item-4__tiles-container-2{
+  position: absolute;
+  top: 926px;
+  left: 202px;
+
+  width: 1516px;
+  height: 336px;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
 /*Блок 4 Конец*/
 
 
