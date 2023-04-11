@@ -1180,15 +1180,6 @@
   transition: fill 0.4s;
 }
 
-/*цвет кнопки при наведении*/
-.modal__close-btn:hover {
-  fill: rgb(11, 11, 82);
-}
-
-/*цвет кнопки при нажатии*/
-.modal__close-btn:active {
-  fill: rgb(43, 255, 0);
-}
 /*класс .open у элемента с классом .modal*/
 .modal.open {
   /*отображаем модальное окно*/
