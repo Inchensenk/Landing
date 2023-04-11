@@ -26,7 +26,7 @@
 }
 
 .item-1__bgr-1 {
-  background-image: url(/background-image/light-background1.jpg);
+  background-image: url(/IMG/background-image/light-background1.jpg);
 
   position: absolute;
   left: 0px;
@@ -37,7 +37,7 @@
 }
 
 .item-1__bgr-2 {
-  background-image: url(/background-image/light-background2.jpg);
+  background-image: url(/IMG/background-image/light-background2.jpg);
   background-repeat: no-repeat;
 
   width: 1920px;
@@ -389,14 +389,14 @@
 }
 
 .item-2__bgr-1 {
-  background-image: url(/background-image/item-2__bgr-1.png);
+  background-image: url(/IMG/background-image/item-2__bgr-1.png);
 
   width: 2000px;
   height: 1747px;
 }
 
 .item-2__bgr-2 {
-  background-image: url(/background-image/item-2__bgr-2.png);
+  background-image: url(/IMG/background-image/item-2__bgr-2.png);
 
   position: absolute;
   left: 0px;
@@ -541,7 +541,7 @@
 }
 
 .item-3__bgr {
-  background-image: url(/background-image/item-3__bgr.png);
+  background-image: url(/IMG/background-image/item-3__bgr.png);
 
   position: absolute;
   top: 0;
@@ -619,7 +619,7 @@
 }
 
 .item-4__bgr-1 {
-  background-image: url(/background-image/item-4__bgr-1.png);
+  background-image: url(/IMG/background-image/item-4__bgr-1.png);
 
   width: 1922px;
   height: 631px;
@@ -631,7 +631,7 @@
 }
 
 .item-4__bgr-2 {
-  background-image: url(/background-image/item-4__bgr-2.png);
+  background-image: url(/IMG/background-image/item-4__bgr-2.png);
 
   width: 2000px;
   height: 1747px;
@@ -642,7 +642,7 @@
 }
 
 .item-4__bgr-3 {
-  background-image: url(/background-image/item-4__bgr-3.png);
+  background-image: url(/IMG/background-image/item-4__bgr-3.png);
 
   width: 2000px;
   height: 1747px;
@@ -671,7 +671,7 @@
 }
 
 .item-4__bgr-5 {
-  background-image: url(/background-image/Item-4__bgr-5.png);
+  background-image: url(/IMG/background-image/Item-4__bgr-5.png);
 
   position: absolute;
   top: 1730px;
@@ -682,7 +682,7 @@
 }
 
 .item-4__bgr-6 {
-  background-image: url(/background-image/Item-4__bgr-6.png);
+  background-image: url(/IMG/background-image/Item-4__bgr-6.png);
 
   position: absolute;
   top: 1625px;
@@ -913,7 +913,7 @@
 }
 
 .item-5__bgr {
-  background-image: url(/background-image/item-5__bgr.png);
+  background-image: url(/IMG/background-image/item-5__bgr.png);
 
   width: 1920px;
   height: 1080px;

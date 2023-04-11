@@ -3,7 +3,8 @@
 document
   .getElementById("open-modal-btn")
   .addEventListener("click", function () {
-    /*находим модальное окно по id*/ /* добавляем класс open чтобы отобразить модальное окно */ document
+    /*находим модальное окно по id*/ /* добавляем класс open чтобы отобразить модальное окно */ 
+    document
       .getElementById("modal")
       .classList.add("open");
   });
@@ -11,7 +12,8 @@ document
 document
   .getElementById("open-modal-btn-2")
   .addEventListener("click", function () {
-    /*находим модальное окно по id*/ /* добавляем класс open чтобы отобразить модальное окно */ document
+    /*находим модальное окно по id*/ /* добавляем класс open чтобы отобразить модальное окно */ 
+    document
       .getElementById("modal")
       .classList.add("open");
   });
@@ -20,7 +22,8 @@ document
 document
   .getElementById("close-modal-btn")
   .addEventListener("click", function () {
-    /*находим модальное окно по id*/ /* добавляем класс open чтобы отобразить модальное окно */ document
+    /*находим модальное окно по id*/ /* добавляем класс open чтобы отобразить модальное окно */ 
+    document
       .getElementById("modal")
       .classList.remove("open");
   });
