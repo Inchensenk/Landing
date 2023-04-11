@@ -1,40 +1,31 @@
 @import url("https://fonts.cdnfonts.com/css/avenir-next-cyr");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-
-
-.body{
+.body {
   font-family: "Avenir Next Cyr", sans-serif;
 
   height: 6882px;
   width: 1920px;
 
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
 
   margin: 0 auto;
   padding: 0;
-
 }
 
 /*Блок 1 Начало*/
 
-.body__item-1{
+.body__item-1 {
   position: relative;
-
 
   width: 1920px;
   height: 1491px;
 
   overflow: hidden;
-
 }
 
-
-.item-1__bgr-1
-{
+.item-1__bgr-1 {
   background-image: url(/background-image/light-background1.jpg);
 
   position: absolute;
@@ -45,7 +36,7 @@
   height: 1080px;
 }
 
-.item-1__bgr-2{
+.item-1__bgr-2 {
   background-image: url(/background-image/light-background2.jpg);
   background-repeat: no-repeat;
 
@@ -57,9 +48,9 @@
   top: 1080px;
 }
 
-.item-1__bgr-3{
+.item-1__bgr-3 {
   background-image: url(/IMG/clouds.png);
-  
+
   position: absolute;
   top: 949px;
   left: 0;
@@ -68,7 +59,7 @@
   height: 261px;
 }
 
-.item-1__bgr-4{
+.item-1__bgr-4 {
   background-image: url(/IMG/office-building.png);
 
   width: 779px;
@@ -80,11 +71,11 @@
   right: 204px;
 }
 
-.item-1__bgr-5{
+.item-1__bgr-5 {
   background-image: url(/IMG/crane.png);
 
   position: absolute;
-  top:159px;
+  top: 159px;
   right: 327px;
   z-index: 5;
 
@@ -92,7 +83,7 @@
   height: 456px;
 }
 
-.item-1__bgr-6{
+.item-1__bgr-6 {
   background-image: url(/IMG/clouds-1.png);
 
   width: 735px;
@@ -105,51 +96,50 @@
   z-index: 10;
 }
 
-.item-1__bgr-7{
+.item-1__bgr-7 {
   background-image: url(/IMG/block.png);
 
   position: absolute;
   top: 392px;
   right: 533px;
   z-index: 5;
-  
+
   width: 223px;
   height: 171px;
 }
 
-.item-1__mouse{
+.item-1__mouse {
   position: absolute;
-  top:447px;
+  top: 447px;
   left: 200px;
 }
 
-.lines__item-1{
+.lines__item-1 {
   position: absolute;
-  top:412.53px;
+  top: 412.53px;
   right: 620.92px;
   z-index: 2;
 }
 
-.lines__item-2{
+.lines__item-2 {
   position: absolute;
-  top:413.91px;
+  top: 413.91px;
   right: 567.04px;
 }
 
-.lines__item-3{
+.lines__item-3 {
   position: absolute;
-  top:412.53px;
+  top: 412.53px;
   right: 620.23px;
 }
 
-.lines__item-4{
+.lines__item-4 {
   position: absolute;
-  top:413.91px;
+  top: 413.91px;
   right: 616.78px;
-  
 }
 
-.item-1__title{
+.item-1__title {
   position: absolute;
   top: 206px;
   left: 202px;
@@ -164,104 +154,94 @@
   line-height: 15px;
   letter-spacing: 0.001em;
   text-transform: uppercase;
-  
 }
 
-.item-1__title--font-weight-bold{
+.item-1__title--font-weight-bold {
   font-weight: bold;
 }
 
-.item-1__text{
+.item-1__text {
   position: absolute;
-  top:475px;
+  top: 475px;
   left: 309px;
 
   width: 598px;
   height: 70px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 10px;
 }
 
-
-.btn{
-
+.btn {
   display: flex;
   justify-content: space-around;
-  
-  
 
   position: absolute;
-  
+
   width: 261px;
   height: 70px;
   left: 309px;
   top: 604px;
-  background: #FF374F;
+  background: #ff374f;
 
   border-radius: 35px;
   border: none;
 }
 
-.btn__text{
+.btn__text {
   align-self: center;
   text-align: center;
 }
 
-.btn__text--white{
+.btn__text--white {
   color: #ffffff;
 }
 
-
-.item-1__text-footnote{
+.item-1__text-footnote {
   position: absolute;
   top: 780px;
   left: 200px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
 }
 
-
-
-.item-1__text-footer{
+.item-1__text-footer {
   position: absolute;
   top: 1297px;
   left: 200px;
 
   text-align: center;
 
-  font-family: 'Avenir Next Cyr';
-  font-style: normal;  
+  font-family: "Avenir Next Cyr";
+  font-style: normal;
   font-size: 31px;
   font-weight: 300;
   line-height: 22px;
   letter-spacing: 0.04em;
-
 }
 
-.item-1__text-footer--uppercase{
-  text-transform:uppercase ;
+.item-1__text-footer--uppercase {
+  text-transform: uppercase;
 }
 
-.item-1__text-footer--color-495D7C{
-  color:#495D7C;
-  
+.item-1__text-footer--color-495D7C {
+  color: #495d7c;
 }
 
-.item-1__text-footer--font-weight-bold{
+.item-1__text-footer--font-weight-bold {
   font-weight: 700;
 }
 
-.item-1__tiles-container{
+.item-1__tiles-container {
   position: absolute;
-  top:881px;
+  top: 881px;
   left: 200px;
 
   width: 1520px;
@@ -271,11 +251,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 21px;
-
-  
 }
 
-.item-1__tile{
+.item-1__tile {
   position: relative;
 
   width: 287px;
@@ -286,43 +264,39 @@
   background-color: #ffffff;
 }
 
-.item-1__tile-icon{
+.item-1__tile-icon {
   position: absolute;
   top: 41px;
   left: 44px;
 }
 
-.item-1__tile-text{
+.item-1__tile-text {
   position: absolute;
   top: 93px;
   left: 48px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 10px;
   letter-spacing: -0.04em;
-
-  
 }
 
-.item-1__tile-text--letter-spacing-minus-009{
+.item-1__tile-text--letter-spacing-minus-009 {
   letter-spacing: -0.09em;
 }
 /*------------------------------*/
-.header__container{
+.header__container {
   position: absolute;
   left: 200px;
   top: 46px;
 
   width: 1522px;
   height: 62px;
-
-
 }
 
-.logo{
+.logo {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -331,25 +305,21 @@
   height: 46px;
 }
 
-.header_nav{
+.header_nav {
   position: absolute;
-  left:442px;
+  left: 442px;
   width: 611px;
   height: 51px;
-
 }
 
-.header__content{
-  
+.header__content {
   display: flex;
   justify-content: space-between;
 }
 
-.menu{
-
+.menu {
   display: flex;
   justify-content: space-between;
-
 }
 
 .menu__item {
@@ -359,7 +329,7 @@
   line-height: 24px;
 }
 
-.menu__link{
+.menu__link {
   text-decoration: none;
   font-size: 16px;
   font-weight: 700;
@@ -367,73 +337,65 @@
   color: #828282;
 }
 
-.menu__link--active-black{
+.menu__link--active-black {
   color: #000000;
 }
 
-.menu__link--active-white{
+.menu__link--active-white {
   color: white;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: space-between;
 
-  position:absolute;
+  position: absolute;
   right: 0;
   top: 11px;
 
   width: 220px;
   height: 24px;
-
 }
 
-.contact__text--black{
+.contact__text--black {
   color: black;
 }
 
-.contact__text--white{
+.contact__text--white {
   color: white;
 }
 
-.cursor{
+.cursor {
   position: absolute;
   left: 885px;
   top: 85px;
   width: 22px;
   height: 23px;
-
 }
 /*Блок 1 Конец*/
 
-
-
-
 /*Блок 2 Начало*/
-.body__item-2{
+.body__item-2 {
   position: relative;
   width: 1920px;
   height: 1080px;
-
-  
 }
 
-.item-2__bgr-conteiner{
+.item-2__bgr-conteiner {
   overflow: hidden;
   position: relative;
   width: 1920px;
   height: 1080px;
 }
 
-.item-2__bgr-1{
-  background-image:url(/background-image/item-2__bgr-1.png) ;
+.item-2__bgr-1 {
+  background-image: url(/background-image/item-2__bgr-1.png);
 
   width: 2000px;
   height: 1747px;
-
 }
 
-.item-2__bgr-2{
+.item-2__bgr-2 {
   background-image: url(/background-image/item-2__bgr-2.png);
 
   position: absolute;
@@ -447,7 +409,7 @@
   box-shadow: inset 0px -128px 113px #000000;
 }
 
-.item-2__bgr-3{
+.item-2__bgr-3 {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -456,46 +418,50 @@
   width: 1920px;
   height: 1080px;
 
-  background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
+  background: linear-gradient(
+    199.52deg,
+    #161b22 9.98%,
+    #202e43 70.51%,
+    #0d1725 88.6%
+  );
 }
 
-.item-2__block-cut-img{
+.item-2__block-cut-img {
   position: absolute;
-  top:320px;
+  top: 320px;
   left: 202px;
 }
 
-.item-2__block-cut-lines{
+.item-2__block-cut-lines {
   position: absolute;
-  top:423px;
-  left:689px;
+  top: 423px;
+  left: 689px;
 }
 
-.item-2__title{
+.item-2__title {
   position: absolute;
-  top:182px;
+  top: 182px;
   left: 328px;
 
   color: white;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 275;
   font-size: 38px;
   line-height: 20px;
 
-
   text-align: center;
   letter-spacing: 0.15em;
-  
+
   text-transform: uppercase;
 }
 
-.item-2__title--bold{
+.item-2__title--bold {
   font-weight: 900;
 }
 
-.item-2__text-footer{
+.item-2__text-footer {
   position: absolute;
   top: 893px;
   left: 377px;
@@ -503,21 +469,20 @@
   width: 745px;
   height: 89px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
-  font-weight:500;
+  font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  
+
   color: white;
 }
 
-.item-2__text-footer--bold{
+.item-2__text-footer--bold {
   font-weight: 900;
 }
 
-
-.item-2__block-cut-title{
+.item-2__block-cut-title {
   width: 745px;
   height: 31px;
 
@@ -526,83 +491,69 @@
   line-height: 1px;
 }
 
-
-
-.item-2__block-cut-title-1{
+.item-2__block-cut-title-1 {
   position: absolute;
   top: 460px;
   right: 205px;
-
-
 }
 
-
-
-.item-2__block-cut-title-2{
+.item-2__block-cut-title-2 {
   position: absolute;
   top: 655px;
   right: 205px;
-
-
 }
 
-.item-2__block-cut-text{
-
+.item-2__block-cut-text {
   font-size: small;
 
   line-height: 11px;
 
-  color:white;
+  color: white;
 }
 
-.item-2__block-cut-text-1{
+.item-2__block-cut-text-1 {
   position: absolute;
   top: 500px;
   right: 205px;
 
   width: 745px;
-  height: 91px ;
-
+  height: 91px;
 }
 
-.item-2__block-cut-text-2{
+.item-2__block-cut-text-2 {
   position: absolute;
   top: 695px;
   right: 205px;
 
   width: 745px;
-  height: 110px ;
+  height: 110px;
 }
 /*Блок 2 Конец*/
 
-
-
 /*Блок 3 Начало*/
-.body__item-3{
+.body__item-3 {
   position: relative;
 
   width: 1920px;
   height: 772px;
 
   overflow: hidden;
-
-  
 }
 
-.item-3__bgr{
+.item-3__bgr {
   background-image: url(/background-image/item-3__bgr.png);
 
   position: absolute;
   top: 0;
   left: 0;
-  
+
   z-index: -1;
 
   width: 1920px;
   height: 2160px;
 }
 
-.item-3__tiles-container{
+.item-3__tiles-container {
   position: absolute;
   top: 341px;
   right: 204px;
@@ -612,36 +563,29 @@
 
   display: flex;
   justify-content: space-between;
-
-
 }
 
-.item-3__tile{
+.item-3__tile {
   height: 304px;
   width: 363px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-
-
 }
 
-.item-3__tile-img{
+.item-3__tile-img {
   width: 363px;
   height: 253px;
-
-
 }
 
-.item-3__tile-text{
+.item-3__tile-text {
   font-weight: bold;
 }
 
-.item-3__title{
+.item-3__title {
   position: absolute;
-  top:206px;
+  top: 206px;
   right: 200px;
 
   width: 1517px;
@@ -650,26 +594,22 @@
   text-transform: uppercase;
   text-align: center;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 275;
   font-size: 42px;
   line-height: 10px;
 
-
-
   letter-spacing: 0.04em;
-
 }
 
-.item-3__title--bold{
-  font-weight:900;
+.item-3__title--bold {
+  font-weight: 900;
 }
 /*Блок 3 Конец*/
 
-
 /*Блок 4 Начало*/
-.body__item-4{
+.body__item-4 {
   position: relative;
 
   width: 1920px;
@@ -678,11 +618,8 @@
   overflow: hidden;
 }
 
-
-
-.item-4__bgr-1{
+.item-4__bgr-1 {
   background-image: url(/background-image/item-4__bgr-1.png);
-
 
   width: 1922px;
   height: 631px;
@@ -691,24 +628,20 @@
   box-shadow: inset 0px -128px 113px #000000;
 
   position: absolute;
-
 }
 
-.item-4__bgr-2{
+.item-4__bgr-2 {
   background-image: url(/background-image/item-4__bgr-2.png);
 
   width: 2000px;
   height: 1747px;
 
-
-  
   position: absolute;
   top: 87px;
-  left: 14px; 
-
+  left: 14px;
 }
 
-.item-4__bgr-3{
+.item-4__bgr-3 {
   background-image: url(/background-image/item-4__bgr-3.png);
 
   width: 2000px;
@@ -720,7 +653,7 @@
   z-index: 2;
 }
 
-.item-4__bgr-4{
+.item-4__bgr-4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -729,34 +662,37 @@
   width: 1920px;
   height: 2459px;
 
-  background: linear-gradient(199.52deg, #161B22 9.98%, #202E43 70.51%, #0D1725 88.6%);
+  background: linear-gradient(
+    199.52deg,
+    #161b22 9.98%,
+    #202e43 70.51%,
+    #0d1725 88.6%
+  );
 }
 
-.item-4__bgr-5{
+.item-4__bgr-5 {
   background-image: url(/background-image/Item-4__bgr-5.png);
 
-  position:absolute;
-  top:1730px;
-  left:241px;
+  position: absolute;
+  top: 1730px;
+  left: 241px;
 
   width: 734px;
   height: 454px;
-
 }
 
-.item-4__bgr-6{
+.item-4__bgr-6 {
   background-image: url(/background-image/Item-4__bgr-6.png);
 
-
-  position:absolute;
-  top:1625px;
+  position: absolute;
+  top: 1625px;
   right: 219px;
 
   width: 894px;
   height: 736px;
 }
 
-.item-4__tiles-container-1{
+.item-4__tiles-container-1 {
   position: absolute;
   top: 349px;
   left: 202px;
@@ -768,16 +704,15 @@
   justify-content: space-between;
 }
 
-.item-4__tiles-container-1-tile{
+.item-4__tiles-container-1-tile {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.item-4__tiles-container-1-tile-text{
-  font-family: 'Avenir Next Cyr';
+.item-4__tiles-container-1-tile-text {
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -786,10 +721,10 @@
   text-align: center;
   letter-spacing: 0.04em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.item-4__tiles-container-2{
+.item-4__tiles-container-2 {
   position: absolute;
   top: 926px;
   left: 202px;
@@ -799,90 +734,84 @@
 
   display: flex;
   justify-content: space-between;
-
 }
 
-.item-4__title{
+.item-4__title {
   position: absolute;
   top: 182px;
   left: 405px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 275;
   font-size: 42px;
   line-height: 1px;
 
-
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.item-4__title--bold{
+.item-4__title--bold {
   font-weight: 900;
 }
 
-.item-4__text-1{
+.item-4__text-1 {
   position: absolute;
-  top:275px;
-  left:810px;
+  top: 275px;
+  left: 810px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 28px;
 
-
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.item-4__text-2{
+.item-4__text-2 {
   position: absolute;
-  top:845px;
-  left:780px;
+  top: 845px;
+  left: 780px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 28px;
 
-
   text-align: center;
 
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-.item-4__text-3{
+.item-4__text-3 {
   position: absolute;
-  top:1361px;
+  top: 1361px;
   left: 429px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 300;
   font-size: 26px;
   line-height: 34px;
 
-
   text-align: center;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.item-4__text-3--bold{
+.item-4__text-3--bold {
   font-weight: 900;
 }
 
-.item-4__ellipse-1{
+.item-4__ellipse-1 {
   position: absolute;
   left: 554px;
   top: 1474px;
@@ -890,14 +819,13 @@
   width: 811px;
   height: 811px;
 
-
-  background: #FFFFFF;
+  background: #ffffff;
   opacity: 0.1;
 
   border-radius: 50%;
 }
 
-.item-4__ellipse-2{
+.item-4__ellipse-2 {
   position: absolute;
   left: 625px;
   top: 1545px;
@@ -905,12 +833,12 @@
   width: 669px;
   height: 669px;
 
-  background: #FFFFFF;
+  background: #ffffff;
 
   border-radius: 50%;
 }
 
-.item-4__ellipse-3{
+.item-4__ellipse-3 {
   box-sizing: border-box;
 
   position: absolute;
@@ -920,11 +848,10 @@
   width: 627px;
   height: 627px;
 
-
-  background: #FFFFFF;
+  background: #ffffff;
 
   box-shadow: 0px 9px 20px rgba(73, 93, 124, 0.19);
-  
+
   border-radius: 50%;
 
   background-image: url(/IMG/item-4/pngwing\ 2.png);
@@ -932,10 +859,10 @@
   background-position: 100% 109%;
 }
 
-.item-4__btn--position{
+.item-4__btn--position {
   position: absolute;
   top: 2019px;
-  left:807px;
+  left: 807px;
 
   height: 70px;
   width: 306px;
@@ -943,63 +870,56 @@
   z-index: 10;
 }
 
-.item4__btn-text{
-
-  font-family: 'Avenir Next Cyr';
+.item4__btn-text {
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  
-  
+
   text-align: center;
   letter-spacing: 0.04em;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.item-4__text-in-ellipse-3{
+.item-4__text-in-ellipse-3 {
   position: absolute;
   top: 1630px;
   left: 690px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 275;
   font-size: 40px;
   line-height: 15px;
 
-  
   text-align: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 
-.item-4__text-in-ellipse-3--bold{
+.item-4__text-in-ellipse-3--bold {
   font-weight: 900;
 }
 /*Блок 4 Конец*/
 
-
 /*Блок 5 Начало*/
-.body__item-5{
+.body__item-5 {
   position: relative;
 
   width: 1920px;
   height: 1080px;
-
-
-  
 }
 
-.item-5__bgr{
+.item-5__bgr {
   background-image: url(/background-image/item-5__bgr.png);
- 
+
   width: 1920px;
   height: 1080px;
 }
 
-.item-5__tiles-container{
+.item-5__tiles-container {
   position: absolute;
   top: 406px;
   right: 199px;
@@ -1011,48 +931,43 @@
 
   width: 1521px;
   height: 423px;
-
-  
 }
 
-.item-5__tile{
+.item-5__tile {
   position: relative;
 
   width: 493px;
   height: 201px;
 
-  background: #FFFFFF;
+  background: #ffffff;
 
   border-radius: 30px;
 }
 
-.item-5__tile-icon{
+.item-5__tile-icon {
   position: absolute;
   top: 41px;
   left: 48px;
-
 }
 
-.item-5__tile-text{
+.item-5__tile-text {
   position: absolute;
   top: 93px;
   left: 48px;
 
-
-
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
   line-height: 10px;
 }
 
-.item-5__footer-text{
+.item-5__footer-text {
   position: absolute;
   top: 910px;
   right: 744px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
   font-weight: 300;
   font-size: 27px;
@@ -1062,18 +977,18 @@
   text-transform: uppercase;
 }
 
-.item-5__footer-text--bold{
+.item-5__footer-text--bold {
   font-weight: 900;
 }
 
-.item-5__title{
+.item-5__title {
   position: absolute;
   top: 170px;
   right: 250px;
 
-  font-family: 'Avenir Next Cyr';
+  font-family: "Avenir Next Cyr";
   font-style: normal;
-  font-weight:300;
+  font-weight: 300;
   font-size: 42px;
   line-height: 25px;
 
@@ -1082,39 +997,207 @@
   text-transform: uppercase;
 }
 
-.item-5__title--bold{
-  font-weight:900;
+.item-5__title--bold {
+  font-weight: 900;
 }
 /*Блок 5 Конец*/
 
+/*Модальное окно Начало*/
+.modal {
+  position: fixed; /*фиксация элемента таким образом, что он будет игнорировать прокрутку*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
 
+  z-index: 99998;
 
+  background-color: rgba(0, 0, 0, 0.3);
 
+  /*центрирование блока по центру*/
+  display: grid;
+  align-items: center;
+  justify-content: center;
 
+  overflow-y: auto; /*если контент не будет помещаться внутри модального окна по оси Y, то его можно будет скролить*/
 
+  /*скрываем модальное окно*/
+  visibility: hidden;
+  opacity: 0;
 
+  /*анимация*/
+  transition: opacity 0.4s, visibility 0.4s;
+}
+.modal__box {
+  position: absolute;
+  left: 414px;
+  top: 20px;
 
+  z-index: 10;
 
+  background-image: url(/IMG/modal/bushes.png);
 
+  width: 1055px;
+  height: 809px;
 
+  /*уменьшение окна для анимации*/
+  transform: scale(0); /*окно вообще не видно*/
 
+  /*анимация*/
+  transition: transform 0.8s;
+}
 
+.modal__ellipse-1 {
+  position: absolute;
+  top: 68px;
+  right: 174px;
 
+  width: 669px;
+  height: 669px;
 
+  background-color: #edf4f4;
 
+  border-radius: 50%;
+}
 
+.modal__ellipse-2 {
+  position: absolute;
+  top: 89px;
+  right: 195px;
 
+  width: 627px;
+  height: 627px;
 
+  background: #ffffff;
 
+  border-radius: 50%;
 
+  box-shadow: 0px 7px 18px rgba(73, 93, 124, 0.08);
+}
 
+.input--border-top-right-left-none {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.input--border {
+  opacity: 0.5;
+  border-bottom: 1px solid #63afcd;
+}
+.input--size {
+  width: 374px;
+  height: 43px;
+}
+.input__tel {
+  position: absolute;
+  top: 423px;
+  left: 360px;
 
+  background-image: url(/SVG/modal/icon-phone.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
 
+.input__text {
+  position: absolute;
+  top: 367px;
+  left: 360px;
 
+  background-image: url(/SVG/modal/icon-avatar.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
 
+::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
 
+  font-family: "Avenir Next Cyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 
+  letter-spacing: 0.04em;
 
+  color: #828282;
+}
 
+.input__checkbox {
+  position: absolute;
+  top: 507px;
+  left: 360px;
 
+  box-sizing: border-box;
 
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.input__checkbox--size {
+  width: 30px;
+  height: 30px;
+}
+
+.modal__title {
+  position: absolute;
+  top: 180px;
+  left: 310px;
+
+  width: 469px;
+  height: 110px;
+
+  font-family: "Avenir Next Cyr";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 26px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.modal__title--bold {
+  font-weight: 900;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 106px;
+  right: 229px;
+
+  background-color: transparent;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+/*анимация svg иконки Х*/
+.modal__close-btn {
+  transition: fill 0.4s;
+}
+
+/*цвет кнопки при наведении*/
+.modal__close-btn:hover {
+  fill: rgb(11, 11, 82);
+}
+
+/*цвет кнопки при нажатии*/
+.modal__close-btn:active {
+  fill: rgb(43, 255, 0);
+}
+/*класс .open у элемента с классом .modal*/
+.modal.open {
+  /*отображаем модальное окно*/
+  visibility: visible;
+  opacity: 1;
+}
+
+/*Если у класса .modal появится класс .open, то параметры указанные в теле применятся к классу .modal__box*/
+.modal.open .modal__box {
+  transform: scale(1);
+}
+/*Модальное окно Конец*/
